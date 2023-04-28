@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.animation-div {
+  /* border: 2px solid red; */
+  width: 100%;
+  height: auto;
+}
+
+.animation-div .inner-border {
+  /* border: 2px solid red; */
+  width: 80%;
+  display: flex;
+  border-radius: 20px;
+  margin: 0 auto;
+}
+.animation-div .inner-border .wer {
+  /* border: 2px solid red; */
+  width: 30%;
+  height: auto;
+  background-color: rgb(29, 41, 46);
+  border-right: 1px solid gray;
+}
+.animation-div .inner-border .wer:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.animation-div .inner-border .wer:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.animation-div .inner-border .wer div {
+  /* border: 2px solid red; */
+  text-align: center;
+  padding: 15px 0;
+}
+
+.animation-div .inner-border .wer div img {
+  height: 70px;
+  width: 70px;
+  background-color: rgb(29, 41, 46);
+  margin-top: 20px;
+}
+
+.animation-div .inner-border .wer div:nth-child(2) {
+  font: 800 40px system-ui;
+  color: #27ad96;
+}
+
+.animation-div .inner-border .wer div:nth-child(3) {
+  font-family: "Kumbh Sans", sans-serif;
+  color: white;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .animation-div .inner-border {
+    width: 100%;
+  }
+  .animation-div .inner-border .wer div img {
+    height: 50px;
+    width: 50px;
+  }
+  .animation-div .inner-border .wer div:nth-child(2) {
+    font: 700 30px system-ui;
+  }
+  .animation-div .inner-border .wer div:nth-child(3){
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,20 @@
+.login-button {
+  color: #fff;
+  background-color: #20ad96;
+  width: 100%;
+  font-family: "Kumbh Sans", sans-serif;
+
+  font-weight: 600;
+  display: inline-block;
+  padding: 1em 1.41575em;
+  cursor: pointer;
+  border: 0;
+  border-radius: 4px;
+  font-size: 18px;
+}
+@media screen and (max-width:580px) {
+  .login-button {
+    padding: 1.5em 1.41575em;
+    font-size: 13px;
+  }
+}

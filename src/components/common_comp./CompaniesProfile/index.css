@@ -1,0 +1,11 @@
+.card1-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+    /* margin-bottom: 30px; */
+}

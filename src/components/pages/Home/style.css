@@ -1,0 +1,16 @@
+.card2-container{
+    /* border: 2px solid red; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 60px;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width:480px) {
+    .card2-container{
+        margin-bottom: 0px;
+    }
+}

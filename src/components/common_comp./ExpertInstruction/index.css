@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inner-container {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.inner-container .sub-heading {
+  padding-top: 100px;
+  color: #26ab95;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+}
+.inner-container .heading {
+  width: 70%;
+  color: #3f3a64;
+  word-spacing: 5px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.inner-container .heading h1 {
+  font-size: 80px;
+  font-family: "Kumbh Sans", sans-serif;
+  color: #3f3a64;
+  line-height: 85px;
+}
+
+.inner-container .heading label {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: bolder;
+}
+
+.inner-container .heading span {
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 100;
+}
+
+.inner-container .pera-xyz {
+  /* border: 2px solid red; */
+  width: 60%;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  color: #535967;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.inner-container .btn .btn1,
+.btn2 {
+  padding: 15px 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  border-radius: 5px;
+}
+
+.inner-container .btn .btn1 {
+  color: white;
+  background-color: rgb(39, 173, 150);
+  margin-right: 14px;
+  margin-top: 30px;
+  border-color: rgb(39, 173, 150);
+}
+.inner-container .btn .btn1:hover {
+  background: rgb(9, 70, 125);
+  color: #fff;
+  border-color: rgb(9, 70, 125);
+  transition-duration: 0.8s;
+}
+
+.inner-container .btn .btn2 {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin-right: 7px;
+}
+.inner-container .btn .btn2:hover {
+  background: #2b3940;
+  color: #fff;
+  border-color: #2b3940;
+  transition-duration: 0.8s;
+}
+
+@media screen and (max-width: 820px) {
+  .inner-container .heading {
+    width: 90%;
+  }
+  .inner-container .heading h1 {
+    font-size: 65px;
+  }
+  .inner-container .pera-xyz {
+    /* border: 2px solid red; */
+    width: 90%;
+    font-size: 17px;
+}
+}
+
+@media screen and (max-width: 480px) {
+  .inner-container {
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 25px !important;
+  }
+  .inner-container .sub-heading {
+    padding-top: 20px !important;
+    color: #26ab95;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+  }
+  .inner-container .heading {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0 30px;
+    font-size: 3rem;
+    color: #3f3a64;
+    word-spacing: 5px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .inner-container .pera-xyz {
+    /* border: 2px solid red; */
+    width: 90% !important;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #535967;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .inner-container .heading h1 {
+    font-size: 28px;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #3f3a64;
+    line-height: 40px;
+  }
+  .inner-container .btn .btn1 {
+    padding: 15px 20px;
+  }
+  .inner-container .btn .btn2 {
+    padding: 15px 20px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .inner-container {
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .inner-container .sub-heading {
+    padding-top: 40px;
+    color: #26ab95;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 14px !important;
+  }
+  .inner-container .heading {
+    /* border: 2px solid red; */
+    width: 100%;
+    padding: 0 30px;
+    font-size: 2rem;
+    color: #3f3a64;
+    word-spacing: 5px;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .inner-container .pera-xyz {
+    /* border: 2px solid red; */
+    width: 90% !important;
+    font-size: 12px;
+    font-family: "Lato", sans-serif;
+    color: #535967;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  .inner-container .heading h1 {
+    font-size: 30px;
+    font-family: "Kumbh Sans", sans-serif;
+    color: #3f3a64;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .inner-container .btn .btn1 {
+    margin-right: 5px;
+    margin-top: 20px;
+  }
+  .inner-container .heading h1 {
+    font-size: 20px;
+    line-height: 35px;
+  }
+}

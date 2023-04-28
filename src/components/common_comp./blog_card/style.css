@@ -1,0 +1,216 @@
+.blog-post-item:hover {
+  border: none;
+  box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  transition-duration: 0.5s;
+}
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.blog-post-item{
+    margin-bottom: 30px;
+}
+.blog-post-item .post-item {
+  padding: 0px 40px 30px;
+}
+.blog-post-item .post-item .post-title {
+  margin: 10px 0px 0px;
+}
+.blog-post-item .post-item .post-title h2 {
+  font-size: 32px;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.5rem;
+  color: #3f3a64;
+  transition: all 0.3s ease-in-out;
+}
+.blog-post-item .post-item .post-title h2:hover {
+  color: #20ad96;
+  transition: all 0.3s ease-in-out;
+}
+.post-item .post-content {
+  color: #535967;
+  font-family: "Questrial", sans-serif;
+  line-height: 30px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+}
+.post-content p {
+  margin-bottom: 1rem;
+}
+.post-content span {
+  color: #20ad96;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.post-content span:hover {
+  color: #535967;
+}
+
+.widget-search {
+  padding: 30px;
+  background-color: white;
+  border: 2px solid #eef2fb;
+  margin-bottom: 40px;
+  transition: 0.4s;
+}
+.widget {
+  padding: 30px 30px 0px;
+}
+.widget-search:hover {
+  border-top: 3px solid #20ad96;
+  box-shadow: 0px 8px 16px 0px rgb(200 183 255 / 20%);
+  transition-duration: 0.1s;
+}
+.widget-search .search-forms {
+  position: relative;
+}
+.widget-search input {
+  height: 50px;
+  width: 80%;
+  font-size: 18px;
+  padding-left: 10px;
+  position: relative;
+  border-radius: 0px;
+  border: 1px solid #eee;
+  outline: none;
+  background-color: #eef2fb;
+}
+
+.widget-search input:focus {
+  background-color: white;
+}
+.widget-search button {
+  color: #fff;
+  background: #20ad96;
+  border: 1px solid #20ad96;
+  padding: 9px 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  height: 50px;
+  position: absolute;
+  top: 0px;
+  border-radius: 0px 5px 5px 0px;
+}
+.widget-search .widget-title {
+  font-size: 20px;
+  position: relative;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #3f3a64;
+}
+.widget-title:before {
+  position: absolute;
+  content: "";
+  /* bottom: -2px; */
+  top: 60px;
+  left: 0px;
+  width: 40px;
+  height: 2px;
+  background: #20ad96;
+}
+.widget-search ul {
+  border: 0;
+  list-style: none;
+  margin: 0;
+  padding-top: 50px;
+}
+.recent-posts li {
+  clear: both;
+  margin-bottom: 15px;
+  padding-bottom: 20px;
+}
+.recent-posts li:first-child {
+  border-bottom: 1px solid #eee;
+}
+.widget-post-thumb {
+  width: 80px;
+  height: fit-content;
+  border-radius: 5px;
+  margin-right: 20px;
+  overflow: hidden;
+  float: left;
+}
+.widget-post-thumb img {
+  height: 100%;
+  width: 100%;
+  color: #20ad96;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.widget-post-body {
+  overflow: hidden;
+}
+.widget-post-body h6 {
+  margin-bottom: 0px;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-family: "Kumbh Sans", sans-serif;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #3f3a64;
+}
+.widget-post-body span {
+  text-transform: capitalize;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #535967;
+}
+.widget-categories .widget-title ul li {
+  border-top: 1px solid #eaedff;
+  padding: 15px 0;
+  font-weight: 100;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #647589;
+}
+.widget-categories .widget-title ul li:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+.widget-categories .widget-title ul li i {
+  margin-right: 10px;
+  font-weight: 900;
+}
+.buttons_list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+.cloud {
+  margin-right: 8px;
+  /* border: 1px solid red; */
+}
+.cloud .inputs {
+  font-size: 13px;
+  background-color: #f5f5f5;
+  padding: 8px 16px;
+  text-transform: capitalize;
+  margin: 0px 5px 10px 0px;
+  color: #333;
+  font-weight: 200;
+}
+.cloud h4:hover {
+  background-color: #20ad96;
+  color: white;
+  transition: 0.4s ease-in-out;
+}
+
+@media screen and (max-width: 820px) {
+  .widget-title h4 {
+    font-size: 25px;
+  }
+}

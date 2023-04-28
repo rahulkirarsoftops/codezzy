@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.card-wrapper {
+  /* border: 2px solid red; */
+  width: 350px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.card-wrapper:hover .heading {
+  color: #26ab95;
+  transition-duration: 0.5s;
+  width: 80%;
+}
+
+.card-wrapper:hover .flag .i-div {
+  margin-top: 0px;
+  transition-duration: 0.5s;
+  background-color: #26ab95;
+}
+.card-wrapper:hover .flag .i-div i {
+  color: white;
+  transition-duration: 0.5s;
+}
+
+.card-wrapper .flag .i-div {
+  /* border: 2px solid red; */
+  width: 60px;
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f5f8;
+  transition-duration: 0.5s !important;
+}
+.card-wrapper .flag {
+  /* border: 2px solid red; */
+  width: 60px;
+  height: 100%;
+}
+
+.card-wrapper .flag i {
+  /* border: 2px solid red; */
+  color: #26ab95;
+  font-size: 40px;
+}
+.card-wrapper .peragraph {
+  /* border: 2px solid red; */
+  width: 78%;
+  height: auto;
+}
+.peragraph .heading {
+  /* border: 2px solid red; */
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #3f3a64;
+  padding-top: 5;
+  text-align: start;
+  transition-duration: 0.5s !important;
+}
+
+.peragraph .pera {
+  /* border: 2px solid red; */
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #535967;
+  padding-top: 15px;
+  width: 100%;
+  text-align: start;
+}
+
+@media screen and (max-width: 480px) {
+  .peragraph .heading {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    text-align: start;
+  }
+  .peragraph .pera {
+    /* border: 2px solid red; */
+    font-size: 13px;
+  }
+  .card-wrapper .peragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .card-wrapper .flag {
+    display: flex;
+    align-items: center;
+  }
+  .card-wrapper {
+    height: 115px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .card-wrapper {
+    width: 100% !important;
+  }
+  .card-wrapper .peragraph {
+    padding-left: 15px !important;
+  }
+}

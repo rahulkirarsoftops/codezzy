@@ -1,0 +1,21 @@
+.card5-div {
+  /* border: 2px solid red; */
+  width: 93%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+@media screen and (max-width: 820px) {
+  .inner-container .sub-heading {
+    padding-top: 30px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .card5-div {
+    width: auto;
+    display: block;
+    justify-content: center;
+  }
+}

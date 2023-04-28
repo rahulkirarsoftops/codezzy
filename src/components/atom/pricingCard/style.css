@@ -1,0 +1,153 @@
+.card-div {
+    /* border: 2px solid red; */
+    padding: 20px;
+    border: 1px dashed #ddd;
+    border-radius: 5px;
+    width: 500px;
+    height: 190px;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .card-div:hover {
+    border: none;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition-duration: 0.5s;
+  }
+  
+  .card-div .image {
+    /* border: 1px solid red; */
+    height: 150px;
+    width: 150px;
+  }
+  .card-div .image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+  }
+  
+  .amount .amount1 {
+    color: #20ad96;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: "Kumbh Sans", sans-serif;
+  }
+  
+  .amount .amount2 {
+    text-decoration-line: line-through;
+    font-size: 18px;
+    color: #ccc;
+    padding-left: 10px;
+  }
+  
+  h4 {
+    font-family: "Kumbh Sans", sans-serif;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #3f3a64;
+  }
+  
+  h4 a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease-in-out;
+  }
+  h4 a:hover {
+    color: #20ad96;
+  }
+  h4 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .name {
+    color: #696969;
+    padding-top: 10px;
+  }
+  .name span a {
+    color: #20ad96;
+  }
+  .name span {
+    padding-right: 20px;
+  }
+  .charges {
+    /* border: 2px solid red; */
+    width: 330px;
+    padding-left: 20px;
+  }
+  
+  @media screen and (max-width: 820px) {
+    .card-div {
+      padding: 20px;
+      width: 310px;
+      height: 135px;
+    }
+    .amount .amount1 {
+      font-size: 20px;
+    }
+    .card-div .image img {
+      height: 60%;
+      width: 100%;
+      border-radius: 50%;
+    }
+    h4 {
+      font-size: 14px;
+      margin-top: 5px;
+    }
+    .name span {
+      font-size: 13px;
+    }
+  }
+  @media screen and (max-width: 521px) {
+    .card-div {
+      /* border: 2px solid red; */
+      width: 356px;
+      height: auto;
+  
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (max-width: 425px) {
+    .card-div {
+      width: 360px;
+      height: 145px;
+    }
+    .card-div .image {
+      /* border: 1px solid red; */
+      height: 100px;
+      width: 150px;
+    }
+    h4 {
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    .amount .amount1 {
+      color: #20ad96;
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 10px;
+      font-family: "Kumbh Sans", sans-serif;
+    }
+    .amount .amount2 {
+      text-decoration-line: line-through;
+      font-size: 15px;
+      color: #ccc;
+      padding-left: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 280px) {
+    .card-div {
+      width: 270px;
+      height: 140px;
+    }
+    h4 {
+      font-size: 14px;
+    }
+    .name span {
+      font-size: 11px;
+    }
+    .card-div .image {
+      height: 85px;
+    }
+  }
+  

@@ -1,0 +1,27 @@
+.circle1 {
+  text-align: start;
+  padding-bottom: 80px;
+  padding-left: 90px;
+}
+.circle1 .numbers {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 12px;
+  border-radius: 100%;
+  font-size: 18px;
+  margin-right: 10px;
+  color: #20ad96;
+  background: #eee;
+  cursor: pointer;
+}
+.circle1 .numbers:hover {
+  background-color: #20ad96;
+  color: #fff;
+}
+.circle1 .numbers:first-child {
+  background: #20ad96;
+  color: #fff;
+}

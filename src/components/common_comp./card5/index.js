@@ -6,7 +6,7 @@ const Card5 = (props) => {
   return (
     <div className='wrapper1'>
             <div className='wrapper-img1'>
-                <img src={props.props.img} />
+                <img src={props.props.img} alt='custom'/>
             </div>
             <div className='closer'>
                 <Date />

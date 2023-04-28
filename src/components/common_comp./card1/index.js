@@ -4,7 +4,7 @@ import './index.css'
 const Card1 = (props) => {
   return (
     <div className='outer-div'>
-        <img src={props.props.image}/>
+        <img src={props.props.image} alt='custom'/>
     </div>
   )
 }

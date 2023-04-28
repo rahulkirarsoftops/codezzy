@@ -5,7 +5,7 @@ export const PricingCard = (props) => {
   return (
     <div className='card-div'>
     <div className='image'>
-        <img src={props.props.image} />
+        <img src={props.props.image}alt='custom'/>
     </div>
     <div className='charges'>
         <div className='amount'>

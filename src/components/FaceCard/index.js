@@ -4,7 +4,7 @@ import './style.css'
 import photo from './data'
 import { Link } from 'react-router-dom'
 
-const FaceCard = (props) => {
+const FaceCard = () => {
     return (
         <div className='body'>
             <Row gutter={{ xs: 8, sm: 16, md: 32, lg: 32 }}>
@@ -13,7 +13,7 @@ const FaceCard = (props) => {
                         return (
                             <Col xxl={6} xl={6} lg={6} md={12} sm={24} xs={24} >
                                 <div className='team-item'>
-                                    <img src={item.img} />
+                                    <img src={item.img} alt={item.img}/>
                                     <div className='team-info'>
                                         <h5>{item.name}</h5>
                                         <p>{item.post}</p>

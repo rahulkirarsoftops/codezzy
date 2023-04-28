@@ -42,10 +42,9 @@
   flex-direction: column;
   margin-bottom: 90px;
   padding-left: 70px;
-  align-items: start;
+  align-items: flex-start;
 }
 .header .sub-heading1 {
-  /* border: 2px solid red; */
   padding-top: 100px;
   color: #26ab95;
   font-family: "Poppins", sans-serif;
@@ -53,7 +52,6 @@
   font-size: 17px;
 }
 .header .heading2 {
-  /* border: 2px solid red; */
   width: 100%;
   font-size: 40px;
   font-weight: 600;

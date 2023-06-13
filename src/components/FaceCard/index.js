@@ -13,6 +13,7 @@ const FaceCard = () => {
                         return (
                             <Col xxl={6} xl={6} lg={6} md={12} sm={24} xs={24} >
                                 <div className='team-item'>
+                                
                                     <img src={item.img} alt={item.img}/>
                                     <div className='team-info'>
                                         <h5>{item.name}</h5>

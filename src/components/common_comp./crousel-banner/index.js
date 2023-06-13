@@ -2,18 +2,18 @@ import React from "react";
 import { Carousel } from "react-responsive-carousel";
 import { Link } from "react-router-dom";
 import "./index.css";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; 
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const Crousel = (props) => {
   return (
     <div className="flix-o-lorem">
       <div className="flix-o-lorem1">
         <div className="sub-heading">TESTIMONIALS</div>
-        <div className="heading1">Success Stories from Students</div>
+        <div className="heading1">Our Successful Students</div>
         <div className="pera">
-          The ultimate planning solution for busy women who want to reach their
-          personal goals.Effortless comfortable eye-catching unique detail.Take
-          the control of their life back
+          Empower Yourself with the Ultimate Planning Solution Designed for Busy
+          Women to Achieve Personal Goals with Ease. Effortless, Comfortable,
+          Unique and Eye-Catching Details for Taking Control of Your Life.
         </div>
         <div className="pera">
           Help you to get the best course that fits you
@@ -45,7 +45,7 @@ const Crousel = (props) => {
                 <div className="crousel-pera">{innerItem.subheading}</div>
                 <div className="people1">
                   <div className="poiu">
-                    <img src={innerItem.img} className="lkj" alt='custom'/>
+                    <img src={innerItem.img} className="lkj" alt="custom" />
                   </div>
                   <div className="name1">{innerItem.auther}</div>
                 </div>

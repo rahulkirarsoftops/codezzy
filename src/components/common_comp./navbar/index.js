@@ -49,31 +49,6 @@ const Navbar = () => {
           </div>
 
           <div className="dropdown">
-            <button className="dropbtn">
-              <NavLink
-                to="/courses"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#385777", textDecoration: "none" }
-                }
-              >
-                Courses <i class="fa fa-angle-down icon"></i>
-              </NavLink>
-            </button>
-            <NavLink to={"/courses"} style={{ textDecoration: "none" }}>
-              <div className="dropdown-content">
-                <a href="/">Courses Style 1</a>
-                <a href="/">Courses Style 2</a>
-                <a href="/">Courses Style 3</a>
-                <a href="/">Courses Style 4</a>
-                <a href="/">Courses Details Style 1</a>
-                <a href="/">Courses Details Style 2</a>
-              </div>
-            </NavLink>
-          </div>
-
-          <div className="dropdown">
             <li className="dropbtn">
               <NavLink
                 to="/contact"

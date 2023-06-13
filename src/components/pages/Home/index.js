@@ -23,7 +23,6 @@ const Home = () => {
 
       <ExpertInstruction />
 
-      <CompaniesProfile />
 
       <TrandingCourse
         heading={"TRENDING COURSES"}

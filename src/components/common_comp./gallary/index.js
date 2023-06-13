@@ -23,9 +23,7 @@ const Gallary = () => {
         <div className="sub-heading1">SELF DEVELOPMENT COURSE</div>
         <div className="heading2">Get Instant Access To Expert solution</div>
         <div className="pera2">
-          The ultimate planning solution for busy women who want to reach their
-          personal goals.Effortless comfortable eye-catching unique detail.Take
-          the control of their life back and start doing things
+        Our programming courses can also provide you with access to expert instructors who can guide you through programming concepts and provide solutions to your coding challenges.
         </div>
         <div className="btn">
           <button className="btn2">JOIN NOW</button>

@@ -15,7 +15,7 @@ export const PricingCard = (props) => {
         <h4>
             <a href='/'>{props.props.heading}</a>
         </h4>
-        <div className='name'>
+        {/* <div className='name'>
             <span>By
                 <a href='/' >William</a>
             </span>
@@ -23,7 +23,7 @@ export const PricingCard = (props) => {
                 <i className='far fa-file-alt'></i>
                 82 Lessons
             </span>
-        </div>
+        </div> */}
     </div>
 </div>
   )

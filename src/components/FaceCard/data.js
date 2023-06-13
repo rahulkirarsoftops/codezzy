@@ -1,28 +1,28 @@
-import img1 from '../assets/PNG/Photo.jpeg';
-import img2 from '../assets/PNG/test-1.jpeg';
-import img3 from '../assets/PNG/test-2.jpeg';
-import img4 from '../assets/PNG/test-3.jpeg';
+import img1 from "../assets/PNG/mentor01.jpg";
+import img2 from "../assets/PNG/mentor2.jpg";
+import img3 from "../assets/PNG/mentor3.jpg";
+import img4 from "../assets/PNG/mentor4.jpg";
 
 let photo = [
-    {
-        img: img1,
-        name: "Adarsh Gupta",
-        post: "CEO, Developer"
-    },
-    {
-        img: img2,
-        name: "Tarun Kumar",
-        post: "Market Researcher"
-    },
-    {
-        img: img3,
-        name: "Shaleen Makhani",
-        post: "Content Writter"
-    },
-    {
-        img: img4,
-        name: "Adarsh Gupta",
-        post: "Content Writter"
-    },
-]
+  {
+    img: img1,
+    name: "Akhilesh Jaishwal",
+    post: "React Native Developer",
+  },
+  {
+    img: img2,
+    name: "Himanshu Joshi ",
+    post: "React Native Developer",
+  },
+  {
+    img: img3,
+    name: "Sawan Saini",
+    post: "ROR Developer",
+  },
+  {
+    img: img4,
+    name: "Rohit Yadav ",
+    post: "React JS Developer",
+  },
+];
 export default photo;

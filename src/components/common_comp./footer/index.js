@@ -17,9 +17,7 @@ const Footer = () => {
             </NavLink>
           </div>
           <div className="peragraph1">
-            Veniam Sequi molestias aut necessitatibus optio magni at natus
-            accusamus.Lorem ipsum dolor sit amet, consectetur adipisicin gelit,
-            sed do eiusmod tempor incididunt .
+          Our institute is an educational institution that specializes in providing courses and training programs related to information technology. We offer a wide range of courses, from basic computer skills to advanced programming languages and software development.
           </div>
           <div className="social-icon">
             <div>
@@ -67,29 +65,25 @@ const Footer = () => {
             <ul>
               <li>About us</li>
               <li>Contact us</li>
-              <li>Projects</li>
-              <li>Terms & Condition</li>
-              <li>Privacy policy</li>
             </ul>
           </div>
 
           <div className="lists">
             <h4>Courses</h4>
             <ul>
-              <li>SEO Business</li>
-              <li>Digital Marketing</li>
-              <li>Graphic Design</li>
-              <li>Site Development</li>
-              <li>Social Marketing</li>
+              <li>React JS</li>
+              <li>React Native</li>
+              <li>ROR</li>
+              <li>QA</li>
             </ul>
           </div>
 
           <div className="lists">
             <h4>Address</h4>
             <ul>
-              <li>+(68) 345 5902</li>
-              <li>[email protected]</li>
-              <li>123 Fifth Floor East 26th Street, New York, NY 10011</li>
+              <li>+91 9479574926</li>
+              <li>nancy@softopstechnologies.com</li>
+              <li>Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore, 452011</li>
             </ul>
           </div>
         </div>
@@ -97,67 +91,8 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <div className="copyride">
-          © Copyright CodeZzy Template All rights reserved.Crafted by{" "}
-          <a
-            href="https://www.softopstechnologies.com/"
-            target="_blank"
-            rel="noreferrer"
-            className="link"
-          >
-            <span>SoftOps Technologies</span>
-          </a>
-        </div>
-        <div className="bottom-nav">
-          <ul>
-            <li className="list-inline-item">
-              <NavLink
-                to="/"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#535967", textDecoration: "none" }
-                }
-              >
-                Home
-              </NavLink>
-            </li>
-            <li className="list-inline-item">
-              <NavLink
-                to="/courses"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#535967", textDecoration: "none" }
-                }
-              >
-                Courses
-              </NavLink>
-            </li>
-            <li className="list-inline-item">
-              <NavLink
-                to="/blog"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#535967", textDecoration: "none" }
-                }
-              >
-                Blog
-              </NavLink>
-            </li>
-            <li className="list-inline-item">
-              <NavLink
-                to="/contact"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#535967", textDecoration: "none" }
-                }
-              >
-                Contact
-              </NavLink>
-            </li>
-          </ul>
+          © Copyright 2023 CodeZzy All rights reserved.
+         <span>CodeZzy</span>
         </div>
       </div>
     </footer>

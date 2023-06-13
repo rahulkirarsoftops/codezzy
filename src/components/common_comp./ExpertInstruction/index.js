@@ -1,6 +1,5 @@
-import React from 'react'
-import './index.css';
-
+import React from "react";
+import "./index.css";
 
 const ExpertInstruction = () => {
     return (
@@ -21,4 +20,4 @@ const ExpertInstruction = () => {
 }
  
 
-export default ExpertInstruction
+export default ExpertInstruction;

@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../../common_comp./navbar";
-import Banner from "../../common_comp./banner";
+// import Banner from "../../common_comp./banner";
 import Crousel from "../../common_comp./crousel-banner";
 import Box from "../../common_comp./simple-box";
 import Footer from "../../common_comp./footer";
 import Box2 from "../../common_comp./box2";
 import CROUSEL from "../../common_comp./crousel-banner/data";
-import Animation from "../../common_comp./animation";
+// import Animation from "../../common_comp./animation";
 import ExpertInstruction from "../../common_comp./ExpertInstruction";
-import CompaniesProfile from "../../common_comp./CompaniesProfile";
+// import CompaniesProfile from "../../common_comp./CompaniesProfile";
 import TrandingCourse from "../../common_comp./TrandingCourse";
 import Gallary from "../../common_comp./gallary";
 import ExpertTeacher from "../../common_comp./expertTeacher";
@@ -23,7 +23,7 @@ const Home = () => {
 
       <ExpertInstruction />
 
-      <CompaniesProfile />
+      {/* <CompaniesProfile /> */}
 
       <TrandingCourse
         heading={"TRENDING COURSES"}
@@ -55,7 +55,7 @@ const Home = () => {
 
       <ExpertTeacher />
 
-      <Banner />
+      {/* <Banner /> */}
 
       <Crousel item={CROUSEL} />
 
@@ -63,7 +63,7 @@ const Home = () => {
 
       <Box2 />
 
-      <Animation />
+      {/* <Animation /> */}
 
       <Footer />
     </div>

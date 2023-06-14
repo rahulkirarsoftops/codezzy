@@ -4,7 +4,6 @@ import Navbar from "../../common_comp./navbar";
 import Crousel from "../../common_comp./crousel-banner";
 import Box from "../../common_comp./simple-box";
 import Footer from "../../common_comp./footer";
-import Box2 from "../../common_comp./box2";
 import CROUSEL from "../../common_comp./crousel-banner/data";
 // import Animation from "../../common_comp./animation";
 import ExpertInstruction from "../../common_comp./ExpertInstruction";

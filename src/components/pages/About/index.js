@@ -1,5 +1,4 @@
 import React from 'react';
-import Animation from '../../common_comp./animation';
 import HoverAnnimation from '../../common_comp./hoverAnnimation';
 import Navbar from '../../common_comp./navbar';
 import TopBanner from '../../common_comp./topBanner';

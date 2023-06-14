@@ -43,11 +43,11 @@ const ContactForm = () => {
                     </div>
                     <div className='email_us'>
                         <p>Make a Call</p>
-                        <h4>+91 9479574926</h4>
+                        <h4>+91 9580364089 </h4>
                     </div>
                     <div className='email_us'>
                         <p>Corporate Office</p>
-                        <h4>Address:- Satguru Parinay,5th floor (506,507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore, 452011</h4>
+                        <h4>Address:- Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore, 452011</h4>
                     </div>
                 </Col>
             </Row>

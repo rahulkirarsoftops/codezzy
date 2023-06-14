@@ -81,7 +81,7 @@ const Footer = () => {
           <div className="lists">
             <h4>Address</h4>
             <ul>
-              <li>+91 9479574926</li>
+              <li>+91 9580364089 </li>
               <li>nancy@softopstechnologies.com</li>
               <li>Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore, 452011</li>
             </ul>

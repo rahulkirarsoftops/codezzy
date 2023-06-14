@@ -22,7 +22,7 @@
   .card-div .image img {
     height: 100%;
     width: 100%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
   }
   
   .amount .amount1 {
@@ -70,7 +70,6 @@
     padding-right: 20px;
   }
   .charges {
-    /* border: 2px solid red; */
     width: 330px;
     padding-left: 20px;
   }
@@ -87,7 +86,7 @@
     .card-div .image img {
       height: 60%;
       width: 100%;
-      border-radius: 50%;
+      /* border-radius: 50%; */
     }
     h4 {
       font-size: 14px;

@@ -27,8 +27,6 @@ const About = () => {
       <br/>
       <br/>
 
-      <Animation />
-
       <BestTeam />
 
       <FaceCard />

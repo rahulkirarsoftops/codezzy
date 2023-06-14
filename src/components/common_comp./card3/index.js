@@ -13,7 +13,7 @@ const Card3 = (props) => {
                     {props.props.heading}
                 </div>
                 <div className='pera'>
-                    Develop skills for career of various majors including computer
+                    {props.props.para}
                 </div>
             </div>
         </div>

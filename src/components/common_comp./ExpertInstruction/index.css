@@ -28,7 +28,7 @@
 }
 
 .inner-container .heading h1 {
-  font-size: 80px;
+  font-size: 65px;
   font-family: "Kumbh Sans", sans-serif;
   color: #3f3a64;
   line-height: 85px;
@@ -70,6 +70,7 @@
   margin-right: 14px;
   margin-top: 30px;
   border-color: rgb(39, 173, 150);
+  text-decoration: none;
 }
 .inner-container .btn .btn1:hover {
   background: rgb(9, 70, 125);
@@ -102,7 +103,7 @@
     /* border: 2px solid red; */
     width: 90%;
     font-size: 17px;
-}
+  }
 }
 
 @media screen and (max-width: 480px) {

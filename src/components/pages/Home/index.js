@@ -1,14 +1,14 @@
 import React from "react";
 import Navbar from "../../common_comp./navbar";
-import Banner from "../../common_comp./banner";
+// import Banner from "../../common_comp./banner";
 import Crousel from "../../common_comp./crousel-banner";
 import Box from "../../common_comp./simple-box";
 import Footer from "../../common_comp./footer";
 import Box2 from "../../common_comp./box2";
 import CROUSEL from "../../common_comp./crousel-banner/data";
-import Animation from "../../common_comp./animation";
+// import Animation from "../../common_comp./animation";
 import ExpertInstruction from "../../common_comp./ExpertInstruction";
-import CompaniesProfile from "../../common_comp./CompaniesProfile";
+// import CompaniesProfile from "../../common_comp./CompaniesProfile";
 import TrandingCourse from "../../common_comp./TrandingCourse";
 import Gallary from "../../common_comp./gallary";
 import ExpertTeacher from "../../common_comp./expertTeacher";
@@ -23,13 +23,13 @@ const Home = () => {
 
       <ExpertInstruction />
 
-      <CompaniesProfile />
+      {/* <CompaniesProfile /> */}
 
       <TrandingCourse
         heading={"TRENDING COURSES"}
-        subheading={"Popular Online Courses Around You"}
+        subheading={"Our Courses"}
         paragraph={
-          "The ultimate planning solution for busy women who want to reach their personal goals"
+          "The courses are designed to provide hands-on experience and practical knowledge to the students. Codezzy has experienced trainers who have in-depth knowledge and expertise in their respective domains.Apart from training, Codezzy also offers placement assistance to its students.Codezzy has state-of-the-art infrastructure with well-equipped classrooms, labs, and other facilities. The institute provides a friendly and supportive learning environment"
         }
       />
 
@@ -49,21 +49,21 @@ const Home = () => {
         heading={"MAXIMIZE YOUR POTENTIALS"}
         subheading={"Learn the secrets to Life Success"}
         paragraph={
-          "The ultimate planning solution for busy women who want to reach their personal goals"
+          "Cultivate a positive mindset and focus on the opportunities and possibilities rather than the obstacles and challenges."
         }
       />
 
       <ExpertTeacher />
 
-      <Banner />
+      {/* <Banner /> */}
 
       <Crousel item={CROUSEL} />
 
       <Box />
 
-      <Box2 />
+      {/* <Box2 /> */}
 
-      <Animation />
+      {/* <Animation /> */}
 
       <Footer />
     </div>

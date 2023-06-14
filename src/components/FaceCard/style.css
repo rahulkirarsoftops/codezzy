@@ -17,6 +17,7 @@
   overflow: hidden;
   margin-bottom: 1.5rem !important;
 }
+
 .team-item:hover {
   box-shadow: 0 0 30px rgb(0 0 0 / 8%);
 }
@@ -64,8 +65,8 @@
 .list-inline-item1:not(:last-child) {
   margin-right: 0.5rem;
 }
-.list-inline-item1{
-    display: inline-block;
+.list-inline-item1 {
+  display: inline-block;
 }
 .team-socials .list-inline-item1 .link-tag {
   width: 35px;
@@ -80,8 +81,8 @@
   background: #ddd;
   transition: all 0.3s ease-in-out;
 }
-@media screen and (max-width:480px) {
-    .body{
-        padding: 0 10px;
-    }
+@media screen and (max-width: 480px) {
+  .body {
+    padding: 0 10px;
+  }
 }

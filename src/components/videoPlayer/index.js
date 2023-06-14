@@ -18,31 +18,31 @@ const VideoPlayer = () => {
         </Col>
         <Col xxl={12} xl={12} lg={12} md={24} sm={24} xs={24}>
           <div className="top-most-container">
-            <div className="subheading">SELF DEVELOPMENT COURSE</div>
+            <div className="subheading">SOFTWARE DEVELOPMENT COURSE</div>
             <div className="heading">
               <h3>
-                Get Instant Access To <span>Expert solution</span>
+                Access Instantly and Solve{" "}
+                <span> Your Problems with Ease Expert solution</span>
               </h3>
             </div>
             <div className="peragraph">
               <p>
-                The ultimate planning solution for busy women who want to reach
-                their personal goals.Effortless comfortable eye-catching unique
-                detail
+                Maximize Your Efficiency and Productivity with Quick Access to
+                Expert Solutions through Git
               </p>
             </div>
             <ul className="about-feature">
               <li>
                 <i className="fa fa-check"></i>
-                <h5>High Quality Video Details</h5>
+                <h5>1:1 Mentorship</h5>
               </li>
               <li>
                 <i className="fa fa-check"></i>
-                <h5>Powerful Audiance</h5>
+                <h5>Best Study Material</h5>
               </li>
               <li>
                 <i className="fa fa-check"></i>
-                <h5>Premium Content Worldwide</h5>
+                <h5>Professional Content </h5>
               </li>
             </ul>
             <button type="submit" className="btn3">

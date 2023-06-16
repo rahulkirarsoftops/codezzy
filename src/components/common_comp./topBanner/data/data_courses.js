@@ -1,6 +1,6 @@
 let obj = [
     {
-        heading: "Course Style 1",
+        heading: "React Js",
         page: 'Home',
         curr_page: 'Courses'
     }

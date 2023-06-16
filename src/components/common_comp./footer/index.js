@@ -63,8 +63,9 @@ const Footer = () => {
           <div className="lists">
             <h4>Explore</h4>
             <ul>
-              <li>About us</li>
-              <li>Contact us</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Courses</li>
             </ul>
           </div>
 
@@ -73,8 +74,8 @@ const Footer = () => {
             <ul>
               <li>React JS</li>
               <li>React Native</li>
-              <li>ROR</li>
-              <li>QA</li>
+              <li>Ruby On Rails</li>
+              <li>Quality Assurance</li>
             </ul>
           </div>
 
@@ -83,7 +84,7 @@ const Footer = () => {
             <ul>
               <li>+91 9580364089 </li>
               <li>nancy@softopstechnologies.com</li>
-              <li>Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore, 452011</li>
+              <li>Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore- 452011</li>
             </ul>
           </div>
         </div>

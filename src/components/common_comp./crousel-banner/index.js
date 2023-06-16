@@ -11,17 +11,14 @@ const Crousel = (props) => {
         <div className="sub-heading">TESTIMONIALS</div>
         <div className="heading1">Our Successful Students</div>
         <div className="pera">
-          Empower Yourself with the Ultimate Planning Solution Designed for Busy
-          Women to Achieve Personal Goals with Ease. Effortless, Comfortable,
-          Unique and Eye-Catching Details for Taking Control of Your Life.
+          Our institute takes pride in the success of our students who have
+          secured top positions in various IT companies. These students have
+          displayed exceptional skills and knowledge in their respective fields.
+          Their achievements are a testament to the quality of education and
+          training provided by our institute.
         </div>
         <div className="pera">
           Help you to get the best course that fits you
-        </div>
-        <div>
-          <Link to={"/"} className="hyperlink">
-            Free Consultation
-          </Link>
         </div>
         <div>
           <i class="fa-solid fa-greater-than"></i>

@@ -34,6 +34,30 @@ const Navbar = () => {
           </div>
 
           <div className="dropdown">
+            <li>
+              <button
+                className="dropbtn"
+                onClick={() => {
+                  setDropdown(!dropdown);
+                }}
+              >
+                Courses <i class="fa fa-angle-down icon"></i>
+              </button>
+              {dropdown && (
+                <>
+                  <NavLink to="/courses" style={{ textDecoration: "none" }}>
+                    <div className="dropdown-content">
+                      <NavLink to="/reactjs">React js</NavLink>
+                      <NavLink to="/reactNative">React Native</NavLink>
+                      <NavLink to="/ror">Ruby on Rails</NavLink>
+                      <NavLink to="/QA">Quality Assurance</NavLink>
+                    </div>
+                  </NavLink>
+                </>
+              )}
+            </li>
+          </div>
+          <div className="dropdown">
             <li className="dropbtn">
               <NavLink
                 to="/about"
@@ -122,13 +146,7 @@ const Navbar = () => {
                   </button>
                 </div>
               </li>
-              <li>
-                <div className="dropdown">
-                  <NavLink to="/about" style={{ textDecoration: "none" }}>
-                    <li className="dropbtn">About Us</li>
-                  </NavLink>
-                </div>
-              </li>
+
               <li>
                 <div className="dropdown">
                   <button
@@ -143,16 +161,21 @@ const Navbar = () => {
                     <>
                       <NavLink to="/courses" style={{ textDecoration: "none" }}>
                         <div className="dropdown-content">
-                          <a href="/">Courses Style 1</a>
-                          <a href="/">Courses Style 2</a>
-                          <a href="/">Courses Style 3</a>
-                          <a href="/">Courses Style 4</a>
-                          <a href="/">Courses Details Style 1</a>
-                          <a href="/">Courses Details Style 2</a>
+                          <NavLink to="/reactjs">React js</NavLink>
+                          <NavLink to="/reactNative">React Native</NavLink>
+                          <NavLink to="/ror">Ruby on Rails</NavLink>
+                          <NavLink to="/QA">Quality Assurance</NavLink>
                         </div>
                       </NavLink>
                     </>
                   )}
+                </div>
+              </li>
+              <li>
+                <div className="dropdown">
+                  <NavLink to="/about" style={{ textDecoration: "none" }}>
+                    <li className="dropbtn">About Us</li>
+                  </NavLink>
                 </div>
               </li>
 
@@ -161,13 +184,6 @@ const Navbar = () => {
                   <NavLink to="/contact" style={{ textDecoration: "none" }}>
                     <li className="dropbtn">Contact</li>
                   </NavLink>
-                </div>
-              </li>
-              <li>
-                <div className="btn">
-                  <button type="submit" className="btn2">
-                    LOG IN
-                  </button>
                 </div>
               </li>
             </ul>

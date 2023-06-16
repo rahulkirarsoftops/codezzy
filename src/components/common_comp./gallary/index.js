@@ -4,7 +4,7 @@ import image1 from "../../assets/PNG/Gallary/feature1.png";
 import image2 from "../../assets/PNG/Gallary/feature2.png";
 import image3 from "../../assets/PNG/Gallary/feature3.png";
 import image4 from "../../assets/PNG/Gallary/feature4.jpeg";
-
+import { Link } from "react-router-dom";
 const Gallary = () => {
   return (
     <div className="container3">
@@ -26,8 +26,11 @@ const Gallary = () => {
         Our programming courses can also provide you with access to expert instructors who can guide you through programming concepts and provide solutions to your coding challenges.
         </div>
         <div className="btn">
-          <button className="btn2">JOIN NOW</button>
-        </div>
+        <Link to={"/contact"} className="btn1">
+          JOIN NOW
+        </Link>
+      </div>
+
       </div>
     </div>
   );

@@ -1,7 +1,6 @@
 import React from "react";
 import { Row, Col } from "antd";
 import "./index.css";
-import { reactJs } from "./data";
 import Navbar from "../navbar";
 import Footer from "../footer";
 import { ROR } from "./data";

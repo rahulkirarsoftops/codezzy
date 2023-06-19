@@ -2,7 +2,6 @@ import { Col, Row } from 'antd'
 import React from 'react'
 import './style.css'
 import photo from './data'
-import { Link } from 'react-router-dom'
 
 const FaceCard = () => {
     return (

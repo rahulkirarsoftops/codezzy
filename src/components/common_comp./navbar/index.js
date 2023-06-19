@@ -99,35 +99,17 @@ const Navbar = () => {
           <span class="bar"></span>
         </div>
 
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <div>
             <a
-              href="/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-facebook fa-1x icon"></i>
-            </a>
-          </div>
-          <div>
-            <a
-              href="/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-twitter fa-1x icon"></i>
-            </a>
-          </div>
-          <div>
-            <a
-              href="/"
+              href="https://www.linkedin.com/company/codezzy/"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fa fa-linkedin fa-1x icon"></i>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {open && (

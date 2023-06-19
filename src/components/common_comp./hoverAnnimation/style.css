@@ -28,7 +28,7 @@
     margin-block-start: .5em;
     margin-block-end: 0.5em;
     font-weight: bold;
-    font-family: "Kumbh Sans", sans-serif;
+    /* font-family: "Kumbh Sans", sans-serif; */
     font-weight: 700;
     font-size: 24px;
     color: #3f3a64;
@@ -40,7 +40,7 @@
 }
 .feature-item .feature-text p{
     color: #535967;
-    font-family: "Questrial", sans-serif;
+    /* font-family: "Questrial", sans-serif; */
     line-height: 30px;
     font-size: 16px;
 }

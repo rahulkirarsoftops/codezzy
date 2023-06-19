@@ -34,7 +34,7 @@
     font-size: 30px;
     color: white;
     font-weight: 800;
-    font-family:'Poppins', sans-serif ;
+    /* font-family:'Poppins', sans-serif ; */
     background-color: #26AB95;
     display: flex;
     justify-content: center;
@@ -53,7 +53,7 @@
 .header-1{
    
     color: #26AB95;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1.5px;
@@ -64,7 +64,7 @@
     width:100%;
     font-size: 25px;
     font-weight: 600;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     color: #3F3A64;
     word-spacing: 3px;
     padding-top: 10px;
@@ -85,12 +85,12 @@
     padding-right: 50px;
     padding-bottom: 30px;
     text-align: start;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
 }
 .bottom-div{
     /* border: 2px solid red; */
     color: #535967;
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     background-color: white;
 }
 .bottom-div span{

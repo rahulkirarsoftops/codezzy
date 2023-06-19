@@ -4,7 +4,7 @@
 .app-input p{
     margin: 0 0 18px 0;
     color: #000;
-    font-family: "Questrial", sans-serif;
+    /* font-family: "Questrial", sans-serif; */
     font-size: 16px;
 }
 .app-input .input-text{

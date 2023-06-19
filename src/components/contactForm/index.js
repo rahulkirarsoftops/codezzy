@@ -39,7 +39,7 @@ const ContactForm = () => {
                 <Col xl={8} lg={8} md={24} sm={24} xs={24}>
                     <div className='email_us'>
                         <p>Email Us:</p>
-                        <h4>Nancy@softopstechnologies.com</h4>
+                        <h4>nancy@softopstechnologies.com</h4>
                     </div>
                     <div className='email_us'>
                         <p>Make a Call</p>

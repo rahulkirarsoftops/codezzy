@@ -22,40 +22,14 @@ const Footer = () => {
           <div className="social-icon">
             <div>
               <a
-                href="https://www.facebook.com/softopstechnologies/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-facebook fa-1x icon"></i>
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://twitter.com/SoftopsT/status/1579746050222751748"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className="fa fa-twitter fa-1x icon"></i>
-              </a>
-            </div>
-            <div>
-              <a
-                href="https://www.linkedin.com/company/softops-technologies/mycompany/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fa fa-linkedin fa-1x icon"></i>
               </a>
             </div>
-            <div>
-              <a
-                href="https://in.pinterest.com/#save"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fa fa-pinterest fa-1x icon"></i>
-              </a>
-            </div>
+           
           </div>
         </div>
 
@@ -63,8 +37,9 @@ const Footer = () => {
           <div className="lists">
             <h4>Explore</h4>
             <ul>
-              <li>About us</li>
-              <li>Contact us</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Courses</li>
             </ul>
           </div>
 
@@ -73,17 +48,17 @@ const Footer = () => {
             <ul>
               <li>React JS</li>
               <li>React Native</li>
-              <li>ROR</li>
-              <li>QA</li>
+              <li>Ruby On Rails</li>
+              <li>Quality Assurance</li>
             </ul>
           </div>
 
-          <div className="lists">
+          <div className="lists" style={{width:"222px"}}>
             <h4>Address</h4>
             <ul>
               <li>+91 9580364089 </li>
               <li>nancy@softopstechnologies.com</li>
-              <li>Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore, 452011</li>
+              <li>Satguru Parinay,5th floor (507) PVVR+MPC, AB Rd, Scheme 54 PU4, Indore- 452011</li>
             </ul>
           </div>
         </div>

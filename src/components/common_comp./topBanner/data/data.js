@@ -1,6 +1,6 @@
 let obj = [
     {
-        heading: "Know About US",
+        heading: "About US",
         page: 'Home',
         curr_page: 'About Us'
     }

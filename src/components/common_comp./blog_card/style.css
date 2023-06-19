@@ -18,7 +18,7 @@
 }
 .blog-post-item .post-item .post-title h2 {
   font-size: 32px;
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 0.5rem;
@@ -31,7 +31,7 @@
 }
 .post-item .post-content {
   color: #535967;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   line-height: 30px;
   font-size: 16px;
   margin-bottom: 1rem;
@@ -98,7 +98,7 @@
 .widget-search .widget-title {
   font-size: 20px;
   position: relative;
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   font-weight: 700;
   line-height: 1.4;
   color: #3f3a64;
@@ -155,7 +155,7 @@
   font-size: 20px;
   margin-bottom: 5px;
   text-transform: capitalize;
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   font-weight: 700;
   line-height: 1.4;
   color: #3f3a64;

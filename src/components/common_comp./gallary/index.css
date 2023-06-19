@@ -47,7 +47,7 @@
 .header .sub-heading1 {
   padding-top: 100px;
   color: #26ab95;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 500;
   font-size: 17px;
 }
@@ -55,20 +55,21 @@
   width: 100%;
   font-size: 40px;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   color: #3f3a64;
   word-spacing: 10px;
   padding-top: 10px;
   text-align: start;
 }
 .header .pera2 {
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   width: 100%;
   font-size: 18px;
   color: #535967;
   padding-top: 10px;
   padding-right: 50px;
   padding-bottom: 40px;
+  line-height: 30px;
   text-align: start;
 }
 
@@ -124,13 +125,13 @@
   .card-container div img {
     /* border: 2px solid red; */
     border-radius: 15px;
-    width: 100%;
+    width: 80%;
     height: 210px;
     margin-bottom: 30px;
     margin-left: 0;
   }
   .card-container .div1 img{
-    width: 100%;
+    width: 80%;
   }
   
   .card-container .div1 {
@@ -195,7 +196,7 @@
   }
   .card-container div img {
     border-radius: 15px;
-    width: 100%;
+    width: 80%;
     height: 210px;
     margin-bottom: 30px;
     margin-left: 0;
@@ -243,6 +244,7 @@
     font-size: 16px;
     color: #535967;
     padding-top: 10px;
+    line-height: 20px;
     padding-right: 20px;
     padding-bottom: 40px;
     text-align: center;

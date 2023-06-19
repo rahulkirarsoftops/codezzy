@@ -1,0 +1,79 @@
+.course-flow-container{
+    padding:10px;
+    width: 90%;
+    margin:10px auto;
+    /* border:1px solid black; */
+    height: auto;
+}
+.course-flow-container h1{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 46px;
+}
+.course-flow-container .course-des{
+    margin: 20px 0;
+    line-height: 30px;
+    word-spacing: 1px;
+    font-size: 18px;
+}
+.points-left-container{
+    border:1px solid transparent;
+    padding:5px;
+    height: 100px;
+    background: linear-gradient(156deg, rgba(38,171,149,1) 0%, rgba(124,204,191,1) 37%, rgba(150,214,203,1) 100%);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.course-flow-chart-container{
+    /* border:1px solid black; */
+    margin: 10px;
+    padding:5px;
+}
+.course-flow-container h2{
+    font-weight: 400;
+    color: #26ab95;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+}
+.points-left-container .point-circle{
+border:1px solid transparent;
+width: 80px;
+height: 80px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+}
+.point-circle p{
+    color:#26ab95;
+    font-size: 30px;
+    font-weight: 600;
+    }
+.points-left-container .point-heading{
+  /* border: 1px solid brown; */
+  width: 80%;
+  line-height: 20px;
+  word-spacing: 1px;
+  color:white;
+  margin: 5px;
+}
+.points-left-container .point-heading p{
+   text-align: left;
+   font-size: 24px;
+   /* line-height: 30px; */
+  }
+.points-right-container p{
+    /* width: 565px; */
+    line-height: 30px;
+    font-size: 18px;
+    word-spacing: 2px;
+ /* border:1px solid black; */
+
+}

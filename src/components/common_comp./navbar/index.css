@@ -26,6 +26,7 @@
 .nav-wrapper .inner_logo span {
   font-size: 28px;
   color: #27ad96;
+  font-family: "Pacifico", cursive;
 }
 .nav-wrapper .list-div {
   width: 50%;
@@ -156,7 +157,7 @@
     padding: 10px 20px;
     margin-right: 7px;
     margin-bottom: 5px;
-    font-family: "Lato", sans-serif;
+    /* font-family: "Lato", sans-serif; */
     font-weight: bolder;
     font-size: 15px;
     border-radius: 5px;
@@ -237,7 +238,7 @@
     padding: 10px 20px;
     margin-right: 7px;
     margin-bottom: 5px;
-    font-family: "Lato", sans-serif;
+    /* font-family: "Lato", sans-serif; */
     font-weight: bolder;
     font-size: 15px;
     border-radius: 5px;

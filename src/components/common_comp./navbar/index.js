@@ -34,6 +34,30 @@ const Navbar = () => {
           </div>
 
           <div className="dropdown">
+            <li>
+              <button
+                className="dropbtn"
+                onClick={() => {
+                  setDropdown(!dropdown);
+                }}
+              >
+                Courses <i class="fa fa-angle-down icon"></i>
+              </button>
+              {dropdown && (
+                <>
+                  <NavLink to="/courses" style={{ textDecoration: "none" }}>
+                    <div className="dropdown-content">
+                      <NavLink to="/reactjs">React js</NavLink>
+                      <NavLink to="/reactNative">React Native</NavLink>
+                      <NavLink to="/ror">Ruby on Rails</NavLink>
+                      <NavLink to="/QA">Quality Assurance</NavLink>
+                    </div>
+                  </NavLink>
+                </>
+              )}
+            </li>
+          </div>
+          <div className="dropdown">
             <li className="dropbtn">
               <NavLink
                 to="/about"
@@ -75,42 +99,24 @@ const Navbar = () => {
           <span class="bar"></span>
         </div>
 
-        <div className="social-icon">
+        {/* <div className="social-icon">
           <div>
             <a
-              href="https://www.facebook.com/softopstechnologies/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-facebook fa-1x icon"></i>
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://twitter.com/SoftopsT/status/1579746050222751748"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <i className="fa fa-twitter fa-1x icon"></i>
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://www.linkedin.com/company/softops-technologies/mycompany/"
+              href="https://www.linkedin.com/company/codezzy/"
               target="_blank"
               rel="noreferrer"
             >
               <i className="fa fa-linkedin fa-1x icon"></i>
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {open && (
         <>
           <div className="hamburger-manu">
             <ul>
-              <li>
+              {/* <li>
                 <div className="dropdown">
                   <button
                     className="dropbtn"
@@ -121,14 +127,15 @@ const Navbar = () => {
                     Home{" "}
                   </button>
                 </div>
-              </li>
+              </li> */}
               <li>
                 <div className="dropdown">
-                  <NavLink to="/about" style={{ textDecoration: "none" }}>
-                    <li className="dropbtn">About Us</li>
+                  <NavLink to="/" style={{ textDecoration: "none" }}>
+                    <li className="dropbtn">Home</li>
                   </NavLink>
                 </div>
               </li>
+
               <li>
                 <div className="dropdown">
                   <button
@@ -143,16 +150,21 @@ const Navbar = () => {
                     <>
                       <NavLink to="/courses" style={{ textDecoration: "none" }}>
                         <div className="dropdown-content">
-                          <a href="/">Courses Style 1</a>
-                          <a href="/">Courses Style 2</a>
-                          <a href="/">Courses Style 3</a>
-                          <a href="/">Courses Style 4</a>
-                          <a href="/">Courses Details Style 1</a>
-                          <a href="/">Courses Details Style 2</a>
+                          <NavLink to="/reactjs">React js</NavLink>
+                          <NavLink to="/reactNative">React Native</NavLink>
+                          <NavLink to="/ror">Ruby on Rails</NavLink>
+                          <NavLink to="/QA">Quality Assurance</NavLink>
                         </div>
                       </NavLink>
                     </>
                   )}
+                </div>
+              </li>
+              <li>
+                <div className="dropdown">
+                  <NavLink to="/about" style={{ textDecoration: "none" }}>
+                    <li className="dropbtn">About Us</li>
+                  </NavLink>
                 </div>
               </li>
 
@@ -161,13 +173,6 @@ const Navbar = () => {
                   <NavLink to="/contact" style={{ textDecoration: "none" }}>
                     <li className="dropbtn">Contact</li>
                   </NavLink>
-                </div>
-              </li>
-              <li>
-                <div className="btn">
-                  <button type="submit" className="btn2">
-                    LOG IN
-                  </button>
                 </div>
               </li>
             </ul>

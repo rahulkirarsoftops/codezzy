@@ -15,7 +15,7 @@
 .inner-container .sub-heading {
   padding-top: 100px;
   color: #26ab95;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   font-weight: 500;
   font-size: 17px;
 }
@@ -29,18 +29,18 @@
 
 .inner-container .heading h1 {
   font-size: 65px;
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   color: #3f3a64;
   line-height: 85px;
 }
 
 .inner-container .heading label {
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   font-weight: bolder;
 }
 
 .inner-container .heading span {
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   font-weight: 100;
 }
 
@@ -48,9 +48,10 @@
   /* border: 2px solid red; */
   width: 60%;
   font-size: 20px;
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   color: #535967;
   padding-top: 20px;
+  line-height: 30px;
   padding-bottom: 10px;
   text-align: center;
 }
@@ -58,7 +59,7 @@
 .inner-container .btn .btn1,
 .btn2 {
   padding: 15px 30px;
-  font-family: "Lato", sans-serif;
+  /* font-family: "Lato", sans-serif; */
   font-weight: bolder;
   font-size: 15px;
   border-radius: 5px;
@@ -114,12 +115,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 25px !important;
     margin-bottom: 25px !important;
   }
   .inner-container .sub-heading {
     padding-top: 20px !important;
     color: #26ab95;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     font-weight: 500;
   }
   .inner-container .heading {
@@ -137,7 +139,7 @@
     /* border: 2px solid red; */
     width: 90% !important;
     font-size: 12px;
-    font-family: "Lato", sans-serif;
+    /* font-family: "Lato", sans-serif; */
     color: #535967;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -145,7 +147,7 @@
   }
   .inner-container .heading h1 {
     font-size: 28px;
-    font-family: "Kumbh Sans", sans-serif;
+    /* font-family: "Kumbh Sans", sans-serif; */
     color: #3f3a64;
     line-height: 40px;
   }
@@ -171,7 +173,7 @@
   .inner-container .sub-heading {
     padding-top: 40px;
     color: #26ab95;
-    font-family: "Poppins", sans-serif;
+    /* font-family: "Poppins", sans-serif; */
     font-weight: 500;
     font-size: 14px !important;
   }
@@ -190,7 +192,7 @@
     /* border: 2px solid red; */
     width: 90% !important;
     font-size: 12px;
-    font-family: "Lato", sans-serif;
+    /* font-family: "Lato", sans-serif; */
     color: #535967;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -198,7 +200,7 @@
   }
   .inner-container .heading h1 {
     font-size: 30px;
-    font-family: "Kumbh Sans", sans-serif;
+    /* font-family: "Kumbh Sans", sans-serif; */
     color: #3f3a64;
     line-height: 40px;
   }

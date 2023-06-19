@@ -14,11 +14,11 @@ const FaceCard = () => {
                             <Col xxl={6} xl={6} lg={6} md={12} sm={24} xs={24} >
                                 <div className='team-item'>
                                 
-                                    <img src={item.img} alt={item.img} style={{width:"200px",height:"250px"}}/>
+                                    <img src={item.img} alt="team-member"/>
                                     <div className='team-info'>
-                                        <h5>{item.name}</h5>
+                                        <h6>{item.name}</h6>
                                         <p>{item.post}</p>
-                                        <ul className='team-socials'>
+                                        {/* <ul className='team-socials'>
                                             <li className='list-inline-item1'>
                                                 <Link to={'https://www.facebook.com/softopstechnologies/'} className='link-tag'>
                                                     <i className='fa fa-facebook'></i>
@@ -34,7 +34,7 @@ const FaceCard = () => {
                                                     <i className='fa fa-linkedin'></i>
                                                 </Link>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </div>
                                 </div>
                             </Col>

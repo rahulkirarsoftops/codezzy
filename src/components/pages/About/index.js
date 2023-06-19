@@ -26,7 +26,7 @@ const About = () => {
       <br/>
       <br/>
 
-      <BestTeam />
+      <BestTeam /> 
 
       <FaceCard />
 

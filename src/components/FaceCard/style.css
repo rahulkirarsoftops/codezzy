@@ -1,5 +1,5 @@
 .body {
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   font-size: 16px;
   line-height: 30px;
   margin: 0;
@@ -15,11 +15,18 @@
   transition: all 0.4s ease 0s;
   border-radius: 5px;
   overflow: hidden;
+  /* border:1px solid pink; */
+  padding:10px;
   margin-bottom: 1.5rem !important;
 }
 
 .team-item:hover {
   box-shadow: 0 0 30px rgb(0 0 0 / 8%);
+}
+.team-item img{
+  width:250px;
+  height: 250px;
+  object-fit: cover;
 }
 .team-info {
   position: relative;
@@ -34,10 +41,10 @@
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
 }
-.team-info h5 {
+.team-info h6 {
   margin-bottom: 0px;
   font-size: 20px;
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   font-weight: 700;
   line-height: 1.4;
   /* margin-bottom: 0.5rem; */
@@ -46,7 +53,7 @@
 .team-info p {
   margin-bottom: 10px;
   color: #535967;
-  font-family: "Questrial", sans-serif;
+  /* font-family: "Questrial", sans-serif; */
   line-height: 30px;
   font-size: 16px;
 }

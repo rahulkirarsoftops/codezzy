@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="social-icon">
             <div>
               <a
-                href="https://www.facebook.com/softopstechnologies/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -31,7 +31,7 @@ const Footer = () => {
             </div>
             <div>
               <a
-                href="https://twitter.com/SoftopsT/status/1579746050222751748"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -40,22 +40,14 @@ const Footer = () => {
             </div>
             <div>
               <a
-                href="https://www.linkedin.com/company/softops-technologies/mycompany/"
+                href="/"
                 target="_blank"
                 rel="noreferrer"
               >
                 <i className="fa fa-linkedin fa-1x icon"></i>
               </a>
             </div>
-            <div>
-              <a
-                href="https://in.pinterest.com/#save"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i class="fa fa-pinterest fa-1x icon"></i>
-              </a>
-            </div>
+           
           </div>
         </div>
 
@@ -79,7 +71,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="lists">
+          <div className="lists" style={{width:"222px"}}>
             <h4>Address</h4>
             <ul>
               <li>+91 9580364089 </li>

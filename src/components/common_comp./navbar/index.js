@@ -102,7 +102,7 @@ const Navbar = () => {
         <div className="social-icon">
           <div>
             <a
-              href="https://www.facebook.com/softopstechnologies/"
+              href="/"
               target="_blank"
               rel="noreferrer"
             >
@@ -111,7 +111,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://twitter.com/SoftopsT/status/1579746050222751748"
+              href="/"
               target="_blank"
               rel="noreferrer"
             >
@@ -120,7 +120,7 @@ const Navbar = () => {
           </div>
           <div>
             <a
-              href="https://www.linkedin.com/company/softops-technologies/mycompany/"
+              href="/"
               target="_blank"
               rel="noreferrer"
             >
@@ -134,7 +134,7 @@ const Navbar = () => {
         <>
           <div className="hamburger-manu">
             <ul>
-              <li>
+              {/* <li>
                 <div className="dropdown">
                   <button
                     className="dropbtn"
@@ -144,6 +144,13 @@ const Navbar = () => {
                   >
                     Home{" "}
                   </button>
+                </div>
+              </li> */}
+              <li>
+                <div className="dropdown">
+                  <NavLink to="/" style={{ textDecoration: "none" }}>
+                    <li className="dropbtn">Home</li>
+                  </NavLink>
                 </div>
               </li>
 

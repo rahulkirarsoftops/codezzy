@@ -11,7 +11,7 @@
 }
 .footer-wrapper {
   /* border: 2px solid red; */
-  width: 50%;
+  width: 45%;
   height: auto;
   padding: 20px 0px;
   padding-left: 80px;
@@ -35,22 +35,23 @@
 .footer-wrapper .footer_logo span {
   font-size: 28px;
   color: #27ad96;
+  font-family: "Pacifico", cursive;
 }
 
 .peragraph1 {
   /* border: 2px solid red; */
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   color: #535967;
   padding-top: 15px;
-  width: 60%;
+  width: 75%;
   text-align: start;
   line-height: 30px;
 }
 .list-manu .lists {
   /* border: 2px solid red; */
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   color: #535967;
   padding-top: 15px;
   width: 100%;
@@ -79,7 +80,7 @@
 
 .footer .list-manu {
   /* border: 2px solid red; */
-  width: 50%;
+  width: 55%;
   height: auto;
   display: flex;
   flex-wrap: wrap;

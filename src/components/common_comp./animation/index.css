@@ -51,7 +51,7 @@
 }
 
 .animation-div .inner-border .wer div:nth-child(3) {
-  font-family: "Kumbh Sans", sans-serif;
+  /* font-family: "Kumbh Sans", sans-serif; */
   color: white;
   font-size: 16px;
   margin-bottom: 20px;

@@ -22,7 +22,7 @@ const Footer = () => {
           <div className="social-icon">
             <div>
               <a
-                href="/"
+                href="https://www.linkedin.com/company/codezzy"
                 target="_blank"
                 rel="noreferrer"
               >

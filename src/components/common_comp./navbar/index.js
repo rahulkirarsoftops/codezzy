@@ -18,73 +18,66 @@ const Navbar = () => {
           </NavLink>
         </div>
         <div className="list-div">
+          <NavLink
+            to="/"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#27AD96" }
+                : { color: "#385777", textDecoration: "none" }
+            }
+          >
+            Home
+          </NavLink>
+
+          <NavLink
+            to="/about"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#27AD96" }
+                : { color: "#385777", textDecoration: "none" }
+            }
+          >
+            About Us
+          </NavLink>
+
+          <NavLink
+            to="/contact"
+            style={({ isActive }) =>
+              isActive
+                ? { color: "#27AD96" }
+                : { color: "#385777", textDecoration: "none" }
+            }
+          >
+            Contact
+          </NavLink>
           <div className="dropdown">
-            <button className="dropbtn">
-              <NavLink
-                to="/"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#385777", textDecoration: "none" }
-                }
-              >
-                Home
-              </NavLink>
+            <button
+              className="dropbtn"
+              onClick={() => {
+                setDropdown(!dropdown);
+              }}
+            >
+              Courses <i class="fa fa-angle-down icon"></i>
             </button>
-          </div>
-
-          <div className="dropdown">
-            <li>
-              <button
-                className="dropbtn"
-                onClick={() => {
-                  setDropdown(!dropdown);
-                }}
-              >
-                Courses <i class="fa fa-angle-down icon"></i>
-              </button>
-              {dropdown && (
-                <>
-                  <NavLink to="/courses" style={{ textDecoration: "none" }}>
-                    <div className="dropdown-content">
-                      <NavLink to="/reactjs">React js</NavLink>
-                      <NavLink to="/reactNative">React Native</NavLink>
-                      <NavLink to="/ror">Ruby on Rails</NavLink>
-                      <NavLink to="/QA">Quality Assurance</NavLink>
-                    </div>
-                  </NavLink>
-                </>
-              )}
-            </li>
-          </div>
-          <div className="dropdown">
-            <li className="dropbtn">
-              <NavLink
-                to="/about"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#385777", textDecoration: "none" }
-                }
-              >
-                About Us
-              </NavLink>
-            </li>
-          </div>
-
-          <div className="dropdown">
-            <li className="dropbtn">
-              <NavLink
-                to="/contact"
-                style={({ isActive }) =>
-                  isActive
-                    ? { color: "#27AD96" }
-                    : { color: "#385777", textDecoration: "none" }
-                }
-              >
-                Contact
-              </NavLink>
-            </li>
+            {dropdown && (
+              <>
+                <NavLink
+                  to="/courses"
+                  style={({ isActive }) =>
+                    isActive
+                      ? { color: "#27AD96" }
+                      : { color: "#385777", textDecoration: "none" }
+                  }
+                >
+                  <div className="dropdown-content">
+                    <NavLink to="/reactjs">React js</NavLink>
+                    <NavLink to="/reactNative">React Native</NavLink>
+                    <NavLink to="/ror">Ruby on Rails</NavLink>
+                    <NavLink to="/QA">Quality Assurance</NavLink>
+                  </div>
+                </NavLink>
+              </>
+            )}
           </div>
         </div>
 

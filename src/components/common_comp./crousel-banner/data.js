@@ -4,6 +4,8 @@ import image3 from '../../assets/PNG/Gallary/Sawan_Saini.jpg'
 import image4 from  '../../assets/PNG/Gallary/Nimish_Vikhar.jpeg'
 import image5 from '../../assets/PNG/Gallary/Chetna.jpg'
 import image6 from '../../assets/PNG/Prachi Gehlot.jpeg'
+import image7 from '../../assets/PNG/Gallary/Adarsh Pandey.jpg';
+import image8 from '../../assets/PNG/Gallary/shalini.jpeg';
 let crousel = [
   {
     img: image1,
@@ -47,6 +49,20 @@ let crousel = [
     subheading:
       "I completed a course in this institute and I have to say the instructor effectively explained complex coding concepts.",
     auther: "Prachi Gehlot",
+  },
+  {
+    img: image7,
+    heading: " The institute provides an excellent environment for learning and personal growth.",
+    subheading:
+      "I would like to share my feedback on the incredibly beneficial Assertiveness Skills course I attended during my 6-month training period at Codezzy. This course has had a profound impact on both my work and personal life, bringing about positive changes that I am truly grateful for. The skills and tips I learned during the course have been incredibly valuable, and I have been able to apply them with remarkable results almost immediately.I must commend Total Success for providing an exceptional experience from start to finish.",
+    auther: "Adarsh Pandey",
+  },
+  {
+    img: image8,
+    heading: "The faculty members are highly qualified and experienced.",
+    subheading:
+      "I had a fantastic learning experience at Codzzy Institute. The instructors were highly knowledgeable and supportive, providing me with the necessary skills and guidance to excel in my chosen field. The hands-on approach and real-world projects helped me gain practical experience and boosted my confidence. The institute's state-of-the-art facilities and collaborative learning environment fostered a positive and engaging atmosphere. I highly recommend Codzzy Institute to anyone looking to acquire valuable technical skills and embark on a successful career in the tech industry ",
+    auther: "Shalini prajapati",
   },
   
 ];

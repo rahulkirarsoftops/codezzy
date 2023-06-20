@@ -10,7 +10,7 @@ const VideoPlayer = () => {
         <Col xxl={12} xl={12} lg={12} md={24} sm={24} xs={24}>
           <div className="video-div">
             <ReactPlayer
-              url="https://www.youtube.com/watch?v=TrsCXBKp7CA"
+              url="https://youtu.be/u4ir71_4p24"
               width={"100%"}
               height={"480px"}
             />

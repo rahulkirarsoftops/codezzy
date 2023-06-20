@@ -272,7 +272,7 @@
 }
 .dropbtn:hover {
   color: #27ad96;
-  transition-duration: 0.5s;
+  transition-duration: 0.5s;  
 }
 
 .dropdown {

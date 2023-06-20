@@ -128,6 +128,21 @@ const Navbar = () => {
                   </NavLink>
                 </div>
               </li>
+              <li>
+                <div className="dropdown">
+                  <NavLink to="/about" style={{ textDecoration: "none" }}>
+                    <li className="dropbtn">About Us</li>
+                  </NavLink>
+                </div>
+              </li>
+
+              <li>
+                <div className="dropdown">
+                  <NavLink to="/contact" style={{ textDecoration: "none" }}>
+                    <li className="dropbtn">Contact</li>
+                  </NavLink>
+                </div>
+              </li>
 
               <li>
                 <div className="dropdown">
@@ -151,21 +166,6 @@ const Navbar = () => {
                       </NavLink>
                     </>
                   )}
-                </div>
-              </li>
-              <li>
-                <div className="dropdown">
-                  <NavLink to="/about" style={{ textDecoration: "none" }}>
-                    <li className="dropbtn">About Us</li>
-                  </NavLink>
-                </div>
-              </li>
-
-              <li>
-                <div className="dropdown">
-                  <NavLink to="/contact" style={{ textDecoration: "none" }}>
-                    <li className="dropbtn">Contact</li>
-                  </NavLink>
                 </div>
               </li>
             </ul>

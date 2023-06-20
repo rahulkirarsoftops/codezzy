@@ -45,9 +45,9 @@ const VideoPlayer = () => {
                 <h5>Professional Content </h5>
               </li>
             </ul>
-            <button type="submit" className="btn3">
+            {/* <button type="submit" className="btn3">
               Our Courses
-            </button>
+            </button> */}
           </div>
         </Col>
       </Row>

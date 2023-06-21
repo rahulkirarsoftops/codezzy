@@ -12,7 +12,7 @@ const ContactForm = () => {
                     <div className='section_padding'>
                         <div className='section_heading'>
                             <span className='subheading'>Contact</span>
-                            <h3>For more information about our courses, get in touch</h3>
+                            <h3>For More Information About Our Courses, Get In Touch</h3>
                         </div>
                         <div className='border-div'>
                             <div className='input_wrapper'>
@@ -37,10 +37,10 @@ const ContactForm = () => {
                     </div>
                 </Col>
                 <Col xl={8} lg={8} md={24} sm={24} xs={24}>
-                    <div className='email_us'>
+                   {/* <div className='email_us'>
                         <p>Email Us:</p>
                         <h4>nancy@softopstechnologies.com</h4>
-                    </div>
+                        </div>*/}
                     <div className='email_us'>
                         <p>Make a Call</p>
                         <h4>+91 9580364089 </h4>

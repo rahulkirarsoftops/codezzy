@@ -1,5 +1,5 @@
 import img1 from "../assets/PNG/mentor01.jpg";
-import img2 from "../assets/PNG/mentor2.jpg";
+import img2 from "../assets/PNG/Hitendra.jpeg";
 import img4 from "../assets/PNG/mentor4.jpg";
 import img5 from "../assets/PNG/rahul-kirar.jpeg";
 
@@ -13,7 +13,7 @@ let photo = [
   },
   {
     img: img2,
-    name: "Himanshu Joshi ",
+    name: "Hitendra Tomar ",
     post: "React Native Developer",
   },
   {

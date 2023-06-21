@@ -17,7 +17,7 @@ const Crousel = (props) => {
           training provided by our institute.
         </div>
         <div className="pera">
-          Help you to get the best course that fits you
+          Help you to get the best course that fits you.
         </div>
         <div>
           <i class="fa-solid fa-greater-than"></i>

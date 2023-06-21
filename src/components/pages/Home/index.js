@@ -28,7 +28,7 @@ const Home = () => {
         heading={"TRENDING COURSES"}
         subheading={"Our Courses"}
         paragraph={
-          "The courses are designed to provide hands-on experience and practical knowledge to the students. Codezzy has experienced trainers who have in-depth knowledge and expertise in their respective domains.Apart from training, Codezzy also offers placement assistance to its students.Codezzy has state-of-the-art infrastructure with well-equipped classrooms, labs, and other facilities. The institute provides a friendly and supportive learning environment"
+          "The courses are designed to provide hands-on experience and practical knowledge to the students. Codezzy has experienced trainers who have in-depth knowledge and expertise in their respective domains. Apart from training, Codezzy also offers placement assistance to its students. Codezzy has state-of-the-art infrastructure with well-equipped classrooms, labs, and other facilities. The institute provides a friendly and supportive learning environment."
         }
       />
 
@@ -46,7 +46,7 @@ const Home = () => {
 
       <TrandingCourse
         heading={"MAXIMIZE YOUR POTENTIALS"}
-        subheading={"Learn the secrets to Life Success"}
+        subheading={"Learn the Secrets to Life Success"}
         paragraph={
           "Cultivate a positive mindset and focus on the opportunities and possibilities rather than the obstacles and challenges."
         }

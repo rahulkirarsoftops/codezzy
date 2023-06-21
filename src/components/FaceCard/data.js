@@ -8,7 +8,7 @@ import img5 from "../assets/PNG/rahul-kirar.jpeg";
 let photo = [
   {
     img: img1,
-    name: "Akhilesh Jaishwal",
+    name: "Akhilesh Jaiswal",
     post: "React Native Developer",
   },
   {

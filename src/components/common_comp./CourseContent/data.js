@@ -140,7 +140,7 @@ export const ROR = [
   },
   {
     id: "03",
-    subHeading: " ActiveRecord",
+    subHeading: " Active Record",
     desc: "ActiveRecord is a powerful ORM (Object-Relational Mapping) library that is integrated with Rails. Learn how to use ActiveRecord to interact with the database, create, update, and delete records, and work with associations between models.",
   },
   {
